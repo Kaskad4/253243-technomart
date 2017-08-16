@@ -6,36 +6,34 @@
   </head>
   <body>
     <header class="main-header">
+      <nav class="top-header-navigation">
       <h1 class="brand-name">Техномарт</h1>
       <form class="search-form" action="" method="get">
         <label for="search-form"></label>
-          <input class="search-form" type="text" name="search" id="search-form" placeholder="Поиск">
+        <input class="search-form" type="text" name="search" id="search-form" placeholder="Поиск">
       </form>
-      
-      <p>Закладки</p>
-      <p>Корзина</p>
-      <p>Оформить заказ</p>
+      <div>
+        <a class="bookmarks-image">Закладки</a>
+        <a class="cart-image-active">Корзина</a>
+        <a class="make-order">Оформить заказ</a>
+      </div>
+      </nav>
       
       <div class="description-block">
-        <p class="discription-title">
-          Интернет-магазин<br>
-          строительных   материалов<br>
-          и инструментов для ремонта
-        </p>
-          <a class="service-number" href="#">+7 (812) 555-05-55</a>
-            <p>г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
-              </div>
+        <p class="discription-title">Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
+        <a class="service-number" href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+        <p>г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
+      </div>
+      
       <div class="user-interface">
         <a class="user-interface-icon" href="#">Равшан Джамшутович</a>
       </div>
-        <div>
-          <ul>
-            <li><a href=""></a>Мои заказы</li>
-            <li><a href="#"></a>Личный кабинет</li>
-          </ul>
-        </div>
+      <div>
+        <a class="my-orders" href="#">Мои заказы</a>
+        <a class="ma-profile" href="#">Личный кабинет</a>
+      </div>
       
-      <nav class="main-navigation">
+      <section class="main-navigation">
         <ul class="main-navigation-inner">
           <li><a href="#"></a>Главная</li>
           <li><a href="company"></a>Копания</li>
@@ -45,67 +43,69 @@
           <li><a href="delivery"></a>Доставка</li>
           <li><a href="contacts"></a>Контакты</li>
         </ul>
-      </nav>
+      </section>
     </header>
     
     <main class="main-container">
       <section>
         <nav class="middle-navigation">
           <ul>
-            <li><img class="home-icon" src="#"></li>
+            <li><img class="home-icon" src="#">Иконка домика</li>
             <li><a class="dec-item" href="#"></a>Каталог</li>
             <li><a class="dec-item" href="#"></a>Инструмент</li>
             <li><a  href="#"></a>Перфораторы</li>
           </ul>
         </nav>
-        <div>
+        
+        <div class="perforators-list">
           <h2>Перфораторы</h2>
         </div>
         
+      <div class="left-block-catalog">
         <form class="filter-form" action="" method="get">
           <label for="filter-form"></label>
-            <input class="filter-form" type="text" name="filter" id="filter-form" placeholder="Фильтр:">
+          <input class="filter-form" type="text" name="filter" id="filter-form" placeholder="Фильтр:">
         </form>
         <b>Цена:</b>
-        
         <div class="range-price">
           <p>ползунок</p>
           <b>0-</b><b>30 000</b>
         </div>
-        
         <fieldset>
           <legend>Производители:</legend>
-            <ul>
-              <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" checked>Bosh
-              </li>
-              <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="intersckhol">Интерскол
-              </li>
-              <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked>Makita
-              </li>
-              <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt">Dewalt
-              </li>
-              <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi">Hitachi
-              </li>
-            </ul>
-          </fieldset>
+          <ul>
+            <li class="filter-option">
+            <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" checked>Bosh
+            </li>
+            <li class="filter-option">
+            <input class="filter-input filter-input-checkbox" type="checkbox" name="intersckhol">Интерскол
+            </li>
+            <li class="filter-option">
+            <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked>Makita
+            </li>
+            <li class="filter-option">
+            <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt">Dewalt
+            </li>
+            <li class="filter-option">
+            <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi">Hitachi
+            </li>
+          </ul>
+        </fieldset>
         
         <div class="radio-btn-choice">
+          <b>Питание:</b>
           <ul>
             <li>
               <input class="radio-btn-1" type="radio" id="3" name="toggle" checked>Аккамуляторные
             </li>
-              <li>
-                <input class="radio-btn-2" type="radio" id="4" name="toggle">Сетевые
-              </li>
-            </ul>
-          </div>
+            <li>
+              <input class="radio-btn-2" type="radio" id="4" name="toggle">Сетевые
+            </li>
+          </ul>
+        </div>
         <div>
           <button class="button-item-show"></button>Показать
+        </div>
         </div>
         
         <div class="sort-item">
