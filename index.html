@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="top-header-navigation">
+      <nav class="top-header-navigation">
         <h1 class="brand-name">Техномарт</h1>
         <form class="search-form" action="" method="get">
         <label for="search-form"></label>
@@ -14,42 +14,35 @@
         </form>
         <div>
           <a class="bookmarks-image" href="#">Закладки:0</a>
-          <a class="cart-image" href="#">Корзина:0</a>
+          <a class="cart-image-active" href="#">Корзина:0</a>
+          <a class="make-order" href="#">Оформить заказ</a>
         </div>
+      </nav>
+      <section class="info-block">
+        <p class="discription-title">Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
+        <div>
+          <a class="service-number" href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+          <p>г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
+        </div>
+        <div class="login-form">
+          <a href="#">Вход</a>
+        </div>
+        <div class="registarion-form">
+          <a href="#">Регистрация</a>
+        </div>
+      </section>
       
-      <p class="discription-title">
-      Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта
-      </p>
-  
-      <div class="">
-        <a class="service-number" href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
-        <p>г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
+      <div class="middle-navigation">
+        <ul class="middle-navigation-inner">
+          <li><a href="#"></a>Главная</li>
+          <li><a href="company"></a>Копания</li>
+          <li><a href="catalog"></a>Каталог</li>
+          <li><a href="news"></a>Новости</li>
+          <li><a href="special-prices"></a>Спецпредложения</li>
+          <li><a href="delivery"></a>Доставка</li>
+          <li><a href="contacts"></a>Контакты</li>
+        </ul>
       </div>
-      
-      <div class="login-form">
-        <a href="#">Вход</a>
-      </div>
-      
-      <div class="registarion-form">
-        <a href="#">Регистрация</a>
-      </div>
-      
-      <div class="make-order-form">
-        <a class="" href="">Оформить заказ</a>
-      </div>
-      </div>
-      
-    <nav class="middle-navigation">
-      <ul class="middle-navigation-inner">
-        <li><a href="#"></a>Главная</li>
-        <li><a href="company"></a>Копания</li>
-        <li><a href="catalog"></a>Каталог</li>
-        <li><a href="news"></a>Новости</li>
-        <li><a href="special-prices"></a>Спецпредложения</li>
-        <li><a href="delivery"></a>Доставка</li>
-        <li><a href="contacts"></a>Контакты</li>
-      </ul>
-    </nav>
     </header>
     
   <main class="main-container">
@@ -74,7 +67,7 @@
     <section class="popular-items">
       <div class="popular-item">
         <h3>Популярные товары:</h3>
-        <a href="#">Все популярные товары</a>
+        <a class="all-popular-items" href="#">Все популярные товары</a>
       </div>
       <ul class="popular-items-promo">
         <li><img src="#" alt="">Перфоратор BOSH BFG 9000 <b>25500 Р.</b></li>
@@ -102,14 +95,14 @@
     </section>
     </main>
     
-    <section class="services">
+    <section class="services-slider">
       <div class="services-inner">
         <h3>Сервисы</h3>
         <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         <div class="service-promo">
           <ul>
             <li>Доставка
-              <ul class="delivery-prono">
+              <ul class="delivery-promo">
                 <li><h3>ДОСТАВКА</h3>
                   Мы с удовольствием доставим ваш товар прямо<br>к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем,<br>Поднимая его на ваш этаж!<br>
                 </li>
@@ -163,7 +156,6 @@
       </div>
     </section>
   
-    
   <footer>
     <section class="main-footer">
       <div class="brand-name">
