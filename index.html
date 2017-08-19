@@ -223,9 +223,13 @@
           <label for="email">
           <input type="text" name="email" id="email" placeholder="Для отправки ответа">Ваш e-mail:
           </label>
-          <textarea placeholder="В свободной форме"></textarea>Текс письма:
+          <label for="textmessage">
+          <textarea placeholder="В свободной форме" id="textmessage"></textarea>Текст письма:
+          </label>
           <div class="btn-send">
-            <a class="btn-send-lost" href="#"></a>Отправить
+            <form action="#">
+              <input type="submit" name"send">
+            </form>
           </div>
         </div>
       </div>
