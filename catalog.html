@@ -8,7 +8,7 @@
     <header class="main-header">
       <nav class="top-header-navigation">
       <h1 class="brand-name">Техномарт</h1>
-      <form class="search-form" action="" method="get">
+      <form class="search-form" action="#" method="get">
         <label for="search-form"></label>
         <input class="search-form" type="text" name="search" id="search-form" placeholder="Поиск">
       </form>
@@ -21,7 +21,7 @@
       
       <div class="description-block">
         <p class="discription-title">Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
-        <a class="service-number" href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+        <a class="service-number" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
         <p>г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
       </div>
       
@@ -48,9 +48,9 @@
     
     <main class="main-container">
       <section>
-        <div class="middle-navigation">
+        <div class="breadcrumbs-navigation">
           <ul>
-            <li><img class="home-icon" src="#">Иконка домика</li>
+            <li><img class="home-icon" src="#" alt="На главную страницу">Иконка домика</li>
             <li><a class="dec-item" href="#"></a>Каталог</li>
             <li><a class="dec-item" href="#"></a>Инструмент</li>
             <li><a  href="#"></a>Перфораторы</li>
@@ -62,7 +62,8 @@
         </div>
         
       <div class="left-block-catalog">
-        <form class="filter-form" action="" method="get">
+        <h3>Фильтр:</h3>
+        <form class="filter-form" action="#" method="get">
           <label for="filter-form"></label>
           <input class="filter-form" type="text" name="filter" id="filter-form" placeholder="Фильтр:">
         </form>
@@ -92,29 +93,33 @@
           </ul>
         </fieldset>
         
-        <div class="radio-btn-choice">
-          <b>Питание:</b>
-          <ul>
-            <li>
-              <input class="radio-btn-1" type="radio" id="3" name="toggle" checked>Аккамуляторные
-            </li>
-            <li>
-              <input class="radio-btn-2" type="radio" id="4" name="toggle">Сетевые
-            </li>
-          </ul>
+        <div class="radio-btn-option">
+          <fieldset>
+            <legend>Питание:</legend>
+            <ul>
+              <li>
+                <input class="filter-option-radio" type="radio" name="toggle" checked>Аккамуляторные
+              </li>
+              <li>
+                <input class="filter-option-radio" type="radio" name="toggle">Сетевые
+              </li>
+            </ul>
+          </fieldset>
         </div>
         <div>
           <button class="button-item-show"></button>Показать
         </div>
         </div>
         
-        <div class="sort-item">
-          <p>Сортировка:</p>
+        <div class="sort-item-bywords">
+          <h3>Сортировка:</h3>
           <a class="price-item" href="#"></a>По цене
           <a class="type-item" href="#"></a>По типу
           <a class="function-item" href="#"></a>По функционалу
-          <button class="button-up-item"></button>
-          <button class="button-down-item"></button>
+          <div class="sort-item-bybuttons">
+            <button class="button-up-item"></button>
+            <button class="button-down-item"></button>
+          </div>
         </div>
         
         <div>
@@ -254,7 +259,7 @@
         <div class="perforator-description-words">
           <h3>Пара слов о перфораторах</h3>
           <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
-          Существуют электромеханические и пневатические перфораторы. Современные модели могул выполнять функции дрели, шуруповерта и отбойного молота. В<br>ассортиментном ряду есть выбор с "трехрежемников": в одном устройстве будут совмещены отбойный молотток и ударная дрель.
+          Существуют электромеханические и пневатические перфораторы. Современные модели могул выполнять функции дрели, шуруповерта и отбойного молота. В ассортиментном ряду есть выбор с "трехрежемников": в одном устройстве будут совмещены отбойный молотток и ударная дрель.
           </p>
         </div>
       </section>
