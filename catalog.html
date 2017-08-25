@@ -10,9 +10,8 @@
   <header class="main-header">
     <div class="top-header-navigation">
       <h1 class="brand-name">Техномарт</h1>
-      <form class="search-form" action="#" method="get">
-        <label for="search-form"></label>
-        <input class="search-form" type="text" name="search" id="search-form" placeholder="Поиск">
+      <form class="search-form" action="#">
+        <input class="search-form" type="text" name="search" id="search-form" value="Поиск">
       </form>
       <div>
         <a class="bookmarks-image" href="#">Закладки</a>
@@ -67,32 +66,42 @@
 
       <div class="left-block-catalog">
         <h3>Фильтр:</h3>
-        <form class="filter-form" action="#" method="get">
+        <!--!<form class="filter-form" action="#" method="get">
           <label for="filter-form"></label>
-          <input class="filter-form" type="text" name="filter" id="filter-form" placeholder="Фильтр:">
+          <input class="filter-form" type="text" name="filter" id="filter-form">
         </form>
-        <b>Цена:</b>
+        -->
+        
         <div class="range-price">
-          <p>ползунок</p>
-          <b>0-</b><b>30 000</b>
+          <b>Цена:</b>
+          <input type="range" min="0" max="50000" step="1000">
+          <div>0
+          </div>
+          <div>30 000
+          </div>
         </div>
         <fieldset class="fieldset-checkbox">
           <legend>Производители:</legend>
           <ul>
             <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" checked>Bosh
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" id="bosh" checked>
+              <label for="bosh">Bosh</label>
             </li>
             <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="intersckhol">Интерскол
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="intersckhol" id="interskol">
+              <label for="interskol">Интерскол</label>
             </li>
             <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked>Makita
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked id="Makita">
+              <label for="Makita">Makita</label>
             </li>
             <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt">Dewalt
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt" id="Dewalt">
+              <label for="Dewalt">Dewalt</label>
             </li>
             <li class="filter-option">
-              <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi">Hitachi
+              <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi" id="Hitachi">
+              <label for="Hitachi">Hitachi</label>
             </li>
           </ul>
         </fieldset>
@@ -101,15 +110,17 @@
           <legend>Питание:</legend>
           <ul>
             <li>
-              <input class="filter-option-radio" type="radio" name="toggle" checked>Аккамуляторные
+              <input class="filter-option-radio" type="radio" name="toggle" id="battery" checked>
+              <label for="battery">Аккамуляторные</label>
             </li>
             <li>
-              <input class="filter-option-radio" type="radio" name="toggle">Сетевые
+              <input class="filter-option-radio" type="radio" name="toggle" id="network">
+              <label for="network">Сетевые</label>
             </li>
           </ul>
         </fieldset>
         <div>
-          <button class="button-item-show">Показать</button>
+          <button type="sybmit" class="button-item-show">Показать</button>
         </div>
       </div>
 
