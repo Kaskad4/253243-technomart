@@ -10,9 +10,8 @@
   <header class="main-header">
     <section class="top-header-navigation">
       <h1 class="brand-name">Техномарт</h1>
-      <form class="search-form" action="#" method="get">
-        <label for="search-form"></label>
-        <input class="search-form" type="text" name="search" id="search-form" placeholder="Поиск">
+      <form class="search-form" action="#">
+        <input type="text" name="search" id="search-form" value="Поиск">
       </form>
       <div>
         <a class="bookmarks-image" href="#">Закладки: 0</a>
@@ -297,7 +296,7 @@
   </footer>
   <div class="modal-window-writeus">
     <button class="close-window" type="button"></button>
-    <form action="#">
+    <form action="#" method="post">
       <label for="name">
         <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста" value="">Ваше имя:
       </label>
@@ -305,7 +304,7 @@
         <input type="text" name="email" id="email" placeholder="Для отправки ответа" value="">Ваш e-mail:
       </label>
       <label for="textmessage">
-        <textarea placeholder="В свободной форме" id="textmessage"></textarea>Текст письма:
+        <textarea id="textmessage">В свободной форме</textarea>Текст письма:
       </label>
       <input type="submit" id="send-data" value="Отправить">
     </form>
