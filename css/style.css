@@ -21,6 +21,11 @@ body {
   font-size: 24px;
 }
 
+.search-form {
+  background-color: #293449;
+  color: #ffffff;
+}
+
 .make-order {
   background: #6db254;
   padding: 10px 15px;
@@ -48,7 +53,53 @@ header a {
   color: rgb(61, 84, 110);
 }
 
+.registarion-form,
+.login-form {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 5px 30px;
+}
 
+.middle-navigation {
+  background-color: #3d546e;
+  list-style: none;
+}
+
+.items-block {
+  color: #ffffff;
+}
+
+.promo-block-yellow {
+  background-color: #ffbf47;
+}
+
+.promo-block-blue {
+  background-color: #3bbce3;
+}
+
+.promo-block-purple {
+  background-color: #dc91d8;
+}
+
+.promo-block-green {
+  background-color: #8ed78f;
+}
+
+.slide-header-block1 {
+  
+}
+
+.open-catalog-slider {
+  background-color: #ff5357;
+  color: #ffffff;
+  padding 10px 15px;
+  border-radius: 2px;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  
+}
 
 
 
