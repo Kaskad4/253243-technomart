@@ -11,8 +11,8 @@
   <header class="main-header">
     <section class="top-header-navigation">
       <h1 class="brand-name">Техномарт</h1>
-      <form class="search-form" action="#">
-        <input type="text" name="search" id="search-form" value="Поиск">
+      <form action="#">
+        <input class="search-form" type="text" name="search" id="search-form" value="Поиск:">
       </form>
       <div>
         <a class="bookmarks-image" href="#" ><img src="img/icon-bookmark.svg" width="14px" height="16px" alt="Закладки">Закладки: 0</a>
@@ -27,16 +27,16 @@
         <p class="adress-header">г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
       </div>
       <div class="user-block">
-        <div class="login-form">
-          <a href="#">Вход</a>
+        <div>
+          <a class="login-form" href="#"><img src="#" alt="">Войти</a>
         </div>
-        <div class="registarion-form">
-          <a href="#">Регистрация</a>
+        <div >
+          <a class="registarion-form" href="#">Регистрация</a>
         </div>
       </div>
     </section>
-    <div class="middle-navigation">
-      <ul class="middle-navigation-inner">
+    <div>
+      <ul class="middle-navigation">
         <li><a href="#">Главная</a></li>
         <li><a href="№">Компания</a></li>
         <li><a href="№">Каталог</a></li>
@@ -295,7 +295,8 @@
       </div>
     </section>
   </footer>
-  <div class="visually-hidden">
+  
+  <div class="feedback-modal">
     <button class="close-window" type="button"></button>
     <form action="#" method="post">
       <label for="name">Ваше имя:
