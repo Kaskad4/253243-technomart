@@ -19,6 +19,7 @@ body {
   padding: 10px;
   color: #ffffff;
   font-size: 24px;
+  text-transform: uppercase;
 }
 
 .search-form {
@@ -70,6 +71,10 @@ header a {
   color: #ffffff;
 }
 
+.popular-items-promo {
+ list-style: none;
+}
+
 .promo-block-yellow {
   background-color: #ffbf47;
 }
@@ -86,20 +91,230 @@ header a {
   background-color: #8ed78f;
 }
 
-.slide-header-block1 {
-  
+.button-promo-block {
+  width: 135px;
+  padding: 10px 15px;
+  background-color: rgba(229, 172, 64, 0.2);
+  text-decoration: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
 }
 
 .open-catalog-slider {
+  display: block;
   background-color: #ff5357;
   color: #ffffff;
-  padding 10px 15px;
-  border-radius: 2px;
-  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
   font-size: 14px;
   text-decoration: none;
-  
+  width: 195px;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+.slider-uppercase {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.popular-item {
+  background: rgb(249, 245, 240);
+}
+
+.all-popular-items {
+  background-color: #ff5357;
+  padding: 10px 40px;
+  width: 253px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: rgb(169, 169, 169);
+  font-weight: bold;
+}
+
+.new-price {
+  background-color: #ee3643;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.item-card-title a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.popular-manufacturer {
+  background-color: rgb(249, 245, 240);
+}
+
+.uppercase {
+  font-size: 30px;
+  color: rgb(61, 84, 110);
+  text-transform: uppercase;
+}
+
+.allmanufactures {
+  color: #ffffff;
+  background-color: #ff5357;
+  text-decoration: none;
+  padding: 10px 80px;
+  font-size: 14px;
+}
+
+.pop-manufacturers-promo {
+ list-style: none;
+}
+
+ .services-h3 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.services-p {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.slider-features {
+  font-size: 30px;
+  color: rgb(61, 84, 110);
+}
+
+.slider-btn {
+  display: block;
+  padding: 15px 20px;
+  background-color: #3d546e;
+  color: #ffffff;
+  width: 240px;
+  text-align: left;
+}
+
+.slider-btn:nth-child(2) {
+  border-bottom: 0.5px solid black;
+}
+
+.credit-deal {
+  background-color: #ff5357;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 40px;
+  width: 195px;
+  text-transform: uppercase;
+}
+
+
+
+
+.slider-features-p {
+  font-size: 14px;
+}
+
+.about-company {
+  background-color: #ffffff;
+}
+
+.about-companyh3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.about-company-p {
+  font-size: 14px;
+}
+
+.btn-about-company {
+  background-color: #ff5357;
+  color: #ffffff;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.btn-lost {
+  width: 300px;
+  padding: 10px 54px;
+  background-color: #ff5357;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.block-footer1 {
+  background-color: #3d546e;
+  color: #ffffff;
+}
+
+.brand-name-footer {
+  font-size: 30px;
+  padding: 10px 20px;
+  background-color: #ff5357;
+  width: 220px;
+  text-align: center;
+}
+
+.footer-nav-block {
+  list-style: none;
+}
+
+.white-text {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.yellow-text {
+  color: rgb(255, 218, 150);
+  text-decoration: none;
+}
+
+.footer-social {
+  background-color: #33445a;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.social-buttons {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.yellow-color {
+  text-decoration: none;
+  color: rgb(255, 218, 150);
+}
+
+.btn_copy_4 {
+  background-image: url("btn copy 4.png");
+  opacity: 0;
+  position: absolute;
+  left: 793px;
+  top: 728px;
+  width: 135px;
+  height: 38px;
+  z-index: 162;
+}
+
+
+
+
+
+
+
+
 
 
 
