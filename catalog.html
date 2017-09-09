@@ -24,19 +24,19 @@
     <div class="description-block">
       <p class="discription-title">Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
       <a class="service-number" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
-      <p>г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
+      <p class="adress-header">г. Санкт-Петербург. ул. Б. Конюшенная, д.19/8</p>
     </div>
 
-    <div class="user-interface">
-      <a class="user-interface-icon" href="#">Равшан Джамшутович</a>
-    </div>
     <div>
-      <a class="my-orders" href="#">Мои заказы</a>
-      <a class="ma-profile" href="#">Личный кабинет</a>
+      <ul class="user-interface">
+        <li><a class="user-interface-icon" href="#"><img src="" alt="">Равшан Джамшутович</a></li>
+        <li><a class="user user-orders" href="#">Мои заказы</a></li>
+        <li><a class="user user-profile" href="#">Личный кабинет</a></li>
+      </ul>
     </div>
 
     <section class="main-navigation">
-      <ul class="main-navigation-inner">
+      <ul class="middle-navigation">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Копания</a></li>
         <li><a href="#">Каталог</a></li>
@@ -49,37 +49,41 @@
   </header>
 
   <main class="main-container">
-    <section>
-      <div class="breadcrumbs-navigation">
-        <ul>
+    <section class="submain-container">
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs-navigation">
           <li>
-            <a class="icon-home" href="#"><img src="#" alt="На главную страницу"></a>
+            <a class="dec-item" href="catalog.html"><img src="#" alt="На главную страницу"></a>
           </li>
           <li><a class="dec-item" href="#">Каталог</a></li>
           <li><a class="dec-item" href="#">Инструмент</a></li>
-          <li><a href="#">Перфораторы</a></li>
+          <li><a class="dec-item" href="#">Перфораторы</a></li>
         </ul>
       </div>
 
       <div class="perforators-list">
-        <h2>Перфораторы</h2>
+        <h2 class="perforator-h2">Перфораторы</h2>
       </div>
 
       <div class="left-block-catalog">
-        <h3>Фильтр:</h3>
+        <div class="filter-background">
+          <h3 class="filter-dec">Фильтр:</h3>
+        </div>
         <form class="filter-form" action="#" method="get">
           <input class="filter-form" type="text" name="filter" id="filter-form">
 
           <div class="range-price">
             <b>Цена:</b>
-            <input type="range" min="0" max="50000" step="1000">
-            <div>0
+            <div class="range-dec">
+              <input type="range" min="0" max="50000" step="1000">
             </div>
-            <div>30 000
+            <div class="renge-output">0
+            </div>
+            <div class="renge-output">30 000
             </div>
           </div>
           <fieldset class="fieldset-checkbox">
-            <legend>Производители:</legend>
+            <legend class="legend-bold">Производители:</legend>
             <ul>
               <li class="filter-option">
                 <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" id="bosh" checked>
@@ -105,7 +109,7 @@
           </fieldset>
 
           <fieldset class="fieldset-radiobtn">
-            <legend>Питание:</legend>
+            <legend class="legend-bold">Питание:</legend>
             <ul>
               <li>
                 <input class="filter-option-radio" type="radio" name="toggle" id="battery" checked>
@@ -118,13 +122,13 @@
             </ul>
           </fieldset>
           <div>
-            <button type="sybmit" class="button-item-show">Показать</button>
+            <button type="sybmit" class="button-show">Показать</button>
           </div>
         </form>
       </div>
 
       <div class="sort-item-bywords">
-        <h3>Сортировка:</h3>
+        <h3 class="sort-item">Сортировка:</h3>
         <a class="price-item" href="#">По цене</a>
         <a class="type-item" href="#">По типу</a>
         <a class="function-item" href="#">По функционалу</a>
@@ -133,7 +137,7 @@
       <button type="button" class="button-down-item"></button>
 
       <div>
-        <ul>
+        <ul class="item-card-ul">
           <li>
             <div class="item-card">
               <div class="item-card-img">
@@ -168,7 +172,7 @@
                 <p class="old-price"></p>
                 <p class="new-price">12500 Р.</p>
                 <div class="item-card-btn">
-                  <a class="btn-buy" href="#">Купить</a>
+                  <a class="btn-buy" href="#"><img src="#" alt="">Купить</a>
                   <a class="to-bookmarks" href="#">В Закладки</a>
                 </div>
               </div>
@@ -247,12 +251,12 @@
             </div>
           </li>
         </ul>
-        <div class="modal-icon-when-buy">
+        <div class="modal-icon-buy">
           <button type="button" class="close-window"></button>
-          <h2>Товар добавлен в корзину!</h2>
+          <h2 class="item-oncart">Товар добавлен в корзину!</h2>
           <div class="take-order">
             <a class="make-purchase" href="#">Оформить заказ</a>
-            <button type="button" class="continued-shopping">Продолжить покупки</button>
+            <a class="continued-shopping" href="#">Продолжить покупки</a>
           </div>
         </div>
       </div>
@@ -261,14 +265,14 @@
         <a class="pagination-icon" href="#">1</a>
         <a class="pagination-icon" href="#">2</a>
         <a class="pagination-icon" href="#">3</a>
-        <a class="pagination-icon" href="#">Следующая</a>
+        <a class="pagination-text" href="#">Следующая</a>
       </div>
     </section>
 
     <section class="perforator-description">
       <div class="perforator-description-words">
-        <h3>Пара слов о перфораторах</h3>
-        <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br> Существуют электромеханические и пневатические перфораторы. Современные модели могул выполнять функции дрели, шуруповерта и отбойного молота. В ассортиментном ряду есть выбор с "трехрежемников": в одном устройстве будут совмещены отбойный молотток и ударная дрель.
+        <h3 class="perforator-h3">Пара слов о перфораторах</h3>
+        <p class="perforator-p">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br> Существуют электромеханические и пневатические перфораторы. Современные модели могул выполнять функции дрели, шуруповерта и отбойного молота. В ассортиментном ряду есть выбор с "трехрежемников": в одном устройстве будут совмещены отбойный молотток и ударная дрель.
         </p>
       </div>
     </section>
@@ -277,20 +281,20 @@
   <footer>
     <section class="footer-up">
       <div>
-        <h1 class="brand-name-footer"><a href="index.html">Техномарт</a></h1>
+        <h1 class="brand-catalog-footer"><a href="index.html">Техномарт</a></h1>
       </div>
       <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>+7 (812) 555-05-55</p>
       <nav class="footer-navigation">
         <ul class="footer-nav-block">
-          <li><a class="footer-link-type1" href="#">Компания</a></li>
-          <li><a class="footer-link-type1" href="#">Новости</a></li>
-          <li><a class="footer-link-type1" href="#">Каталог</a></li>
-          <li><a class="footer-link-type1" href="#">Доставка</a></li>
-          <li><a class="footer-link-type1" href="#">Контакты</a></li>
-          <li><a class="footer-link-type2" href="#">Материалы</a></li>
-          <li><a class="footer-link-type2" href="#">Техника</a></li>
-          <li><a class="footer-link-type2" href="#">Инструмент</a></li>
-          <li><a class="footer-link-type2" href="#">Спецпредложения</a></li>
+          <li><a class="white-text" href="#">Компания</a></li>
+          <li><a class="white-text" href="#">Новости</a></li>
+          <li><a class="white-text" href="#">Каталог</a></li>
+          <li><a class="white-text" href="#">Доставка</a></li>
+          <li><a class="white-text" href="#">Контакты</a></li>
+          <li><a class="yellow-text" href="#">Материалы</a></li>
+          <li><a class="yellow-text" href="#">Техника</a></li>
+          <li><a class="yellow-text" href="#">Инструмент</a></li>
+          <li><a class="yellow-text" href="#">Спецпредложения</a></li>
         </ul>
       </nav>
     </section>
@@ -300,17 +304,17 @@
         <p>&copy; 2010-2017 Компания Техномарт<br>Все права защищены</p>
       </div>
       <div class="social-icon">
-        <ul>
-          <li><a class="social-web" href="#"><img src="#" alt="#">Вконтакте</a></li>
-          <li><a class="social-web" href="#"><img src="#" alt="#">Фейсбук</a></li>
-          <li><a class="social-web" href="#"><img src="#" alt="#">Инстаграмм</a></li>
+        <ul class="social-buttons">
+          <li><a class="social-button" href="#"><img src="#" alt="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#"><img src="#" alt="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#"><img src="#" alt="#">Инстаграмм</a></li>
         </ul>
       </div>
       <div class="feedback">
-        <a href="mail@htmlacademy.ru">Обратная связь:<br>mail@htmlacademy.ru</a>
+        Обратная связь:<a class="yellow-color" href="mail@htmlacademy.ru"><br>mail@htmlacademy.ru</a>
       </div>
       <div class="copyright">
-        <a href="htmlacademy.ru">Разработано —<br>htmlacademy.ru</a>
+        Разработано —<a class="yellow-color" href="htmlacademy.ru"><br>htmlacademy.ru</a>
       </div>
     </section>
   </footer>
