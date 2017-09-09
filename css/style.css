@@ -261,6 +261,8 @@ header a {
   background-color: #ff5357;
   width: 220px;
   text-align: center;
+  box-shadow: 0 3px 0 1px #b52933;
+  text-transform: uppercase;
 }
 
 .footer-nav-block {
@@ -307,6 +309,231 @@ header a {
   height: 38px;
   z-index: 162;
 }
+
+
+.user-interface {
+  list-style: none;
+}
+
+ .user-interface-icon {
+  width: 299px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 35px;
+  font-size: 21px;
+}
+
+.user {
+  font-size: 16px;
+  color: rgb(61, 84, 110);
+  text-decoration: underline;
+}
+
+.breadcrumbs-navigation {
+  list-style: none;
+}
+
+.dec-item {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.submain-container{
+  background-color: #ffffff;
+}
+
+.perforators-list {
+  width: 940px;
+  background-color: #f2f6f8;
+  padding: 20px 25px;
+}
+
+.perforator-h2 {
+  text-transform: uppercase;
+  color: rgb(61, 84, 110);
+  font-size: 30px;
+}
+
+ .filter-background {
+  width: 220px;
+  background-color: #f7f3ec;
+}
+
+.filter-dec {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+.range-dec {
+  background-color: #f7f3ec;
+  width: 220px;
+}
+
+.renge-output {
+  background-color: #f7f3ec;
+  width: 95px;
+  text-align: center;
+}
+
+.fieldset-checkbox {
+  text-decoration: none;
+}
+
+.button-show {
+  border-radius: 2px;
+}
+
+.sort-item {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.price-item,
+.type-item,
+.function-item {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.302);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.item-card-ul {
+  list-style: none;
+}
+
+.btn-buy {
+  background-color: #63a63e;
+  color: #ffffff;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 2px 0 #367315;
+}
+
+.to-bookmarks {
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 8px 23px;
+  color: rgb(50, 66, 92);
+  box-shadow: 0 0 0 3px #63a63e;
+}
+
+.modal-icon-buy {
+  background-color: #ffffff;
+  width: 699px;
+  min-height: 361px;
+}
+
+.item-oncart {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+}
+
+.take-order {
+  background-color: rgba(241, 241, 241, 0.75);
+  min-height: 112px;
+  text-align: center;
+}
+
+.make-purchase {
+  width: 220px;
+  padding: 10px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  color: #ffffff;
+}
+
+.continued-shopping {
+  width: 220px;
+  padding: 10px 60px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pagination-icon {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #e5e5e5;
+  color: #000000;
+  padding: 8px 10px;
+  font-size: 13px;
+  
+}
+
+.pagination-text {
+  padding: 8px 18px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid #e5e5e5;
+}
+
+.perforator-h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.perforator-p {
+  font-size: 13px;
+}
+
+.footer-up {
+  background-color: #32425c;
+  color: #ffffff;
+}
+
+.brand-catalog-footer a {
+  text-decoration: none;
+  background-color: #ee3643;
+  font-size: 30px;
+  box-shadow: 0 3px 0 1px #b52933;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-down-social {
+  background-color: #293449;
+  color: #ffffff;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
